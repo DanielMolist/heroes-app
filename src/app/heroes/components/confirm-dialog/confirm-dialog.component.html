@@ -1,0 +1,9 @@
+<h2 mat-dialog-title>Confirmación</h2>
+<mat-dialog-content>
+  <p>¿Estas seguro de que deseas eliminar el héroe?</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-stroked-button color="primary" [mat-dialog-close]="false">Cancelar</button>
+  <span class="spacer"></span>
+  <button mat-raised-button color="warn" [mat-dialog-close]="true" cdkFocusInitial>Borrar</button>
+</mat-dialog-actions>
