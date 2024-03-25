@@ -9,7 +9,7 @@
     <input type="password" placeholder="Contraseña" matInput>
   </mat-form-field>
 
-  <button mat-flat-button color="primary" routerLink="/heroes/list">
+  <button mat-flat-button color="primary" (click)="onLogin()">
     <mat-icon>login</mat-icon>
     Acceder
   </button>

@@ -22,8 +22,8 @@
     </button>
 
     <span class="spacer"></span>
-
-    <button mat-button routerLink="/auth/login">
+    <span>{{user?.user}}</span>
+    <button mat-button (click)="onLogout()">
       <mat-icon>logout</mat-icon>
       Logout
     </button>
